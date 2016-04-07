@@ -21,4 +21,9 @@
 		  class="org.alfresco.demoamp.HelloWorldWebScript"
 		  parent="webscript">
 	</bean>
+	
+	<bean id="webscript.org.alfresco.extensions.bulkexport.export.get" class="org.alfresco.extension.bulkexport.webscripts.BulkExportWebscript" parent="webscript">
+	   <property name="serviceRegistry" ref="ServiceRegistry" />
+	</bean>
+	
 </beans>
