@@ -22,7 +22,7 @@
 		  parent="webscript">
 	</bean>
 	
-	<bean id="webscript.org.alfresco.extensions.bulkexport.export.get" class="org.alfresco.extension.bulkexport.webscripts.BulkExportWebscript" parent="webscript">
+	<bean id="webscript.org.alfresco.extension.bulkexport.export.get" class="org.alfresco.extension.bulkexport.webscripts.BulkExportWebscript" parent="webscript">
 	   <property name="serviceRegistry" ref="ServiceRegistry" />
 	</bean>
 	
